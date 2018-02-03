@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(61, 61, 61);
+}
+.parallax-container {
+    height:300px;
+    
+}
+.section{
+    color:white;
+}
+#name{
+    color:#4aaaa5;   
+}
+a {
+    color:white;
+    margin-left: 10px;
+}
+a:hover{
+    color:#4aaaa5;
+}
+.header{
+    color:#4aaaa5;
+}
+
+#profPic{
+    width:30%;
+    transform: rotate(270deg);
+    float:left;
+    margin:20px 10px 30px -10px;
+    border-color: black;
+}
+
+#firstImage{
+    width:50%;
+    margin-bottom:10px;
+}
+
+#secondImage{
+    width:60%;
+}
+
+#thirdImage{
+    width:50%;
+}
