@@ -30,9 +30,9 @@
             <div class="col s3 offset-s3">
                 <div id="navigation">
                     <ul id="list" class="">
-                        <li><a href="#!">About Me</a></li>
-                        <li><a href="#!">Education</a></li>
-                        <li><a href="#!">Repositories</a></li>
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#repositories">Repositories</a></li>
                         <li class="divider"></li>
                         <li><a href="#!">Gallery</a></li>
                     </ul>
@@ -47,7 +47,7 @@
     </div>
     <div class="section">
         <div class="row container">
-            <h2 class="header">About Me</h2>
+            <h2 class="header" id="aboutMe">About Me</h2>
             <img id="profPic" src="./../assets/images/20170430_144044.jpg" alt="">
             <p class="white-text text-darken-3 lighten-3">What happens when an outdoorsman meets development? I am going to find that out.</p>
             <p class="white-text text-darken-3 lighten-3">I have a passion to maintain an active lifestyle and not slow down. You should always be growing, trying to improve, and experiencing new things. The second you stop, is the second you have decided to wait until you die. There is always time to have a drink with friends though, if anybody tells you otherwise they need to rethink the way they live.</p>
@@ -62,7 +62,7 @@
 
     <div class="section">
         <div class="row container">
-            <h2 class="header">Education</h2>
+            <h2 class="header" id="education">Education</h2>
             <p class="white-text text-darken-3 lighten-3">This is where all of my cool education stuff will go.</p>
         </div>
     </div>
@@ -76,11 +76,18 @@
 
     <div class="section">
         <div class="row container">
-            <h2 class="header">Repositories</h2>
+            <h2 class="header" id="repositories">Repositories</h2>
             <p class="white-text text-darken-3 lighten-3">Link all of my showcased repos here.</p>
             <div id="repos"></div>
         </div>
     </div>
+
+    <div id="footer">
+
+    </div>
+    
+    <!--this div will be used to add html via javascript to create the Repository modal-->
+    <div id="repoModal"></div>
 
     <!--Link the Jquery cdn and the materialize js file-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

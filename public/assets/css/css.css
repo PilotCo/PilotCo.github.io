@@ -2,6 +2,10 @@ body{
     background-color: rgb(61, 61, 61);
 }
 
+h2{
+    margin-bottom: 50px;
+}
+
 .parallax-container {
     height:300px;
     
@@ -34,6 +38,7 @@ a:hover{
     float:left;
     margin:20px 10px 30px -20px;
     border-color: black;
+    max-height: 310px;
 }
 
 .repoPic{
@@ -45,11 +50,11 @@ a:hover{
     border-radius: 10px;
     cursor: pointer;
     background-color: white;
-    color: black;
+    color: rgb(61, 61, 61);
 }
 
 .repoDiv:hover .repoTitle{
-    border-bottom: solid black;
+    border-bottom: solid rgb(61, 61, 61);
 }
 
 .repoTitle{
@@ -67,4 +72,76 @@ a:hover{
 
 #thirdImage{
     width:50%;
+}
+
+.repoModal{
+    position:fixed;
+    color:rgb(90, 90, 90);
+    background-color: rgb(240, 240, 240);
+    border: solid black 6px;
+    border-radius: 15px;
+    top: 10%;
+    z-index: 1;
+    width: 80%;
+    margin-left:10%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+#modalTitle{
+    color:black;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+#modalLink{
+    color:rgb(90, 90, 90);
+}
+
+#modalLink:hover{
+    color:#4aaaa5;
+    cursor: pointer;
+}
+
+.repoModal::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.repoModal::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 15px;
+}
+ 
+.repoModal::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  -webkit-border-radius: 15px;
+}
+
+#modalPic{
+    width:100%;
+    border:black solid;
+    border-radius: 3px;
+}
+
+.linksHeader{
+    border-bottom: solid black;
+}
+
+.modalSection{
+    border-bottom: solid black;
+}
+
+#closeModal{
+    position: absolute;
+    right:5%;
+    top:4%;
+    font-size: 30px;
+}
+
+#closeModal:hover{
+    color: red;
+    cursor: pointer;
 }
