@@ -7,8 +7,8 @@ var repositories = [
         name: 'Adventure-Time'
         ,link: 'https://secure-fjord-87831.herokuapp.com/'
         ,repoLink:'https://github.com/kasuao/Adventure-website'
-        ,description:'This is the description of the Repo.'
-        ,technologies:'These are the technologies used.'
+        ,description:'This is an application dedicated to the adventurer. The user can view posts from other users about their adventures. Whenever a post is made we make a post call to our api and add it to the database. Using React will then dynamically update the state which will change the page as well. Users can also view other peoples profile pages, but only if the user has an account created.'
+        ,technologies:'HTML, React, CSS, Bootstrap, Mongo DB, Express Server, Node.js, Api Routes, Github, Heroku'
         ,picture:'./../assets/images/adventureSite.jpg'
     },
     {
